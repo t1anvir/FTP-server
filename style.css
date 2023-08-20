@@ -1,0 +1,76 @@
+body{
+	background-image: url(images/ddd.jpg) ; background-attachment: fixed; background-repeat: none; background-size:900px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, h3{
+	font-family: 'Noto Sans', sans-serif
+}
+
+
+.main{
+	width: 1000px; margin: 0 auto; background: lightgray; padding: 20px;
+}
+
+.ftp_menu li a{
+	text-decoration: none; color: darkred;
+}
+
+.menu{background: yellowgreen;}
+.menu ul{margin: 0; padding: 0; list-style: none}
+.menu li{display: inline-block;}
+.menu li a{ text-decoration:none; display:block; color:black; padding:10px }
+.menu li a:hover{background: white;}
+
+img{
+	width: 1000px;
+}
+
+.column{
+	overflow: hidden;
+}
+
+.single-column{
+	width: 32.333%; float: left; padding-right: 1%;
+}
+
+.single-columnn{
+	width: 32.333%; float: left; padding-right: 1%;
+}
+
+.ftp_menuu li a{
+	text-decoration: none; color: darkred;
+}
+
+.ftp_menuuu li a{
+	text-decoration: none; color: darkred;
+}
+
+.single-columnnn{
+	width: 32.333%; float: left; padding-right: 1%;
+}
+
+
+.form{
+	background: #53BA84;
+	width: 800px;
+	padding: 40px;
+	margin: 40px auto;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea{
+	border: 1px solid #ddd;
+	padding: 15px;
+	width: 760px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus{
+	outline: none; border-color: green}
+
+input[type="submit"]{
+	background: red;
+	color: #fff;
+	border: none;
+	padding: 15px;
+}
+
